@@ -1,0 +1,17 @@
+서버배포
+
+1. github 다운로드
+git clone https://github.com/ShinYangGye/LogProject.git
+
+2. gradlew 실행권한주기
+chmod u+x gradlew
+
+3. gradlew 로 프로젝트를 jar 파일로 변경(빌드)
+./gradlew build
+
+4. java 로 jar 실행
+cd ./build/libs
+java -jar xxxx.jar
+
+
+
