@@ -13,5 +13,21 @@ chmod u+x gradlew
 cd ./build/libs
 java -jar xxxx.jar
 
+5. nohup 설치 - 터미널 세션 종료시에서 실행 할수 있게 실행
+nohup java -jar myLog-0.0.1-SNAPSHOT.jar (포그라운드 실행)
+nohup java -jar myLog-0.0.1-SNAPSHOT.jar & (백그라운드 실행)
+
+6. netstat -nlpt - 실행중인 port 확인
+
+7. nohup 로그 확인
+tail -f nohup.out
+
+8. 프로세스 종로
+PID 확인 : ps -ef
+ubuntu    453841       1  0 02:04 ?        00:00:07 java -jar myLog-0.0.1-SNAPSHOT.jar
+PID 종료
+kill -9 453841
 
 
+9. 다른 nohup 로그 파일로 실행하기
+nohup java -jar myLog-0.0.1-SNAPSHOT.jar > mylog.out &
