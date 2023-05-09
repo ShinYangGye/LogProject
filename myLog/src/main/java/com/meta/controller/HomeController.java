@@ -14,6 +14,8 @@ public class HomeController {
 	@GetMapping("/home")
 	public String getHome() {
 		log.info("Info #############################");
+		log.warn("warn #############################");
+		log.error("error #############################");
 		return "Home";
 	}
 	

@@ -11,7 +11,7 @@ chmod u+x gradlew
 
 4. java 로 jar 실행
 cd ./build/libs
-java -jar xxxx.jar
+java -jar myLog-0.0.1-SNAPSHOT.jar
 
 5. nohup 설치 - 터미널 세션 종료시에서 실행 할수 있게 실행
 nohup java -jar myLog-0.0.1-SNAPSHOT.jar (포그라운드 실행)
