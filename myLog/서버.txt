@@ -29,5 +29,5 @@ PID 종료
 kill -9 453841
 
 
-9. 다른 nohup 로그 파일로 실행하기
+9. 다른 nohup.out 로그 파일로 실행하기
 nohup java -jar myLog-0.0.1-SNAPSHOT.jar > mylog.out &
